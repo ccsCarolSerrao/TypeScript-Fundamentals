@@ -1,9 +1,10 @@
-interface IDataService {
+ export interface IDataServiceAMD {
     msg: string;
     getMessage(): string;
-}
+};
 
-class DataService implements IDataService {
+export class DataServiceAMD implements IDataServiceAMD {
     msg = 'Welcome to the Show!';
     getMessage() { return this.msg; }
 }
+

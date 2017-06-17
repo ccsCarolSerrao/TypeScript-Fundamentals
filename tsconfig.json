@@ -2,6 +2,14 @@
     "compilerOptions": {
         "target": "es6",
         "module": "commonjs",
-        "sourceMap": true
-    }
+        "sourceMap": true,
+        "removeComments": true
+        /*"outDir": "./build/"*/
+    },
+    "include": [
+        "app/scripts/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
 }
